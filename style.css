@@ -1,0 +1,41 @@
+.custom-bg-grey {
+    background-color: #b8aeae; /* Adjust the color code to your desired shade of grey */
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    body {
+      background-color: #fff; /* Change background color for mobile */
+    }
+    .jumbotron {
+      padding: 3rem 1rem; /* Adjust padding for smaller screens */
+    }
+    .display-4 {
+      font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+    .lead {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  .marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #94828f;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  

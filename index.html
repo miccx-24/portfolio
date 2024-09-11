@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Portfolio Site</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+     body {
+      background-color: #0142cf; /* Mid grey color */
+    }
+    .card-body{
+      background-color: #b8aeae; /* Light grey color */
+    }
+    #clock {
+      font-size: 36px;
+      font-family: 'Arial', sans-serif;
+    }
+    .navigation-menu{
+      background-color: #1d10d6; /* Light grey color */
+    }
+
+    /* Media query for mobile devices */
+    @media (max-width: 768px) {
+      body {
+        background-color: #fff; /* Change background color for mobile */
+      }
+      .jumbotron {
+        padding: 3rem 1rem; /* Adjust padding for smaller screens */
+      }
+      .display-4 {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+      }
+      .lead {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+      }
+    }
+    body {
+      background-color: #726f6f; /* Mid grey color */
+    }
+    .card-body{
+      background-color: #b8aeae; /* Light grey color */
+    }
+  #clock {
+      font-size: 36px;
+      font-family: 'Arial', sans-serif;
+    }
+    .navigation-menu{
+      background-color: #b8aeae; /* Light grey color */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Logo or site name -->
+      <div class="marquee-container">
+        <div class="marquee-content">
+          Miccs Technogies welcomes you to the world of coding
+        </div>
+      </div>
+      
+      <!-- Toggle button for smaller screens -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Links to different sections -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Hero header -->
+  <header class="jumbotron jumbotron-fluid text-center" style="background-image: url('https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); background-size: cover; background-position: center;">
+    <div class="container">
+      <!-- Name and title -->
+      <h1 class="display-4 text-white">!Hola World, Miccs Technologies Welcomes You</h1>
+      <p class="lead text-white">A Junior Software Developer</p>
+    </div>
+  </header>
+  <!-- Clock -->
+  <div class="container text-center mt-4">
+    <p id="clock"></p>
+  </div>
+ <!-- Blog Section -->
+<section id="blog" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Researches</h2>
+    <!-- Blog Content Blocks -->
+    <div class="row">
+      <!-- First Blog Content Block -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Miccs Technologies:Real Time Traffic Monitoring and Route Optimization </h5>
+            <p class="card-text">Unfolding the power of Data Science in Controling traffic congestion in Zimbabwe</p>
+            <a href="https://www.chronicle.co.zw/zimbabwe-embraces-smart-traffic-management-system/" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Second Blog Content Block -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Coding Journey</h5>
+            <p class="card-text">How different techstars navigate this field.</p>
+            <a href="https://medium.com/@WorldOfDev/my-coding-journey-and-why-i-am-learning-how-to-code-a6b12eff917a" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+   <!-- 3rd Blog Content Block -->
+   <div class="col-md-4">
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">The Power Data Science</h5>
+        <p class="card-text">Taking a look on how to leverage resourses at our disposal.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+  
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Services</h2>
+      <!-- Your services description goes here -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">I specialize in creating visually appealing and user-friendly websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Front-end and Back-End Development</h5>
+              <p class="card-text">I can turn your designs into interactive and responsive web applications.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Search Engine Optimization</h5>
+              <p class="card-text">I can help improve your website's search engine ranking and visibility.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media Links -->
+  <section id="social-media" class="custom-bg-grey py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Connect with Me</h2>
+      <!-- Your social media links go here -->
+      <!-- Example: -->
+      <div class="text-center">
+        <a href="https://www.linkedin.com/in//rejoice-moyo-987559254/" target="_blank" class="btn btn-outline-primary mr-2">
+          <i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/miccx-24" target="_blank" class="btn btn-outline-dark mr-2">
+          <i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/MacdonaldSairo1 " target="_blank" class="btn btn-outline-primary mr-2">
+          <i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p>&copy; 2024 Macdonald Sairos. All rights reserved.</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+      <li class="list-inline-item"><a href="">Sitemap</a></li>
+    </ul>
+  </div>
+</footer>
+ <!-- Script for Real-Time Clock -->
+ <script>
+  // Function to update the clock
+  function updateClock() {
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+    var timeString = hours + ':' + (minutes < 10 ? '0' : '') + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+    document.getElementById('clock').textContent = timeString;
+  }
+
+  // Update the clock every second
+  setInterval(updateClock, 1000);
+
+  // Initial call to update the clock
+  updateClock();
+   // Smooth scrolling for navigation links
+   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
